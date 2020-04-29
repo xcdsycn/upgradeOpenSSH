@@ -10,3 +10,5 @@ checkSSLVersion
 checkSSHVersion
 [[ $isUpgrade == no ]] || upgradeOpenSSH
 addToPath
+source /etc/profile.d/path.sh
+ssh -V
